@@ -1,0 +1,350 @@
+body, html {
+	-webkit-font-smoothing: antialiased;
+	font-family:  "Comic Sans MS", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+*:focus {
+	outline: none;
+	border: none;
+}
+/******************************************************
+*
+*Navagation bar
+*
+*******************************************************/
+#nav {
+	width: 100%;
+	border-top: 3px solid #FF0000;
+}
+#nav ul {
+	list-style-type: none;
+}
+#navbar {
+	max-width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#navbara {
+	height: 70px;
+}
+#logoslide {
+	position: absolute;
+	height: 70px;
+	float: left;
+	border-radius: 0px 0px 25px 25px;
+	padding: 5px 5px 12px 5px;
+	z-index: 10;
+}
+#aboutslide {
+	z-index: 10;
+	position: absolute;
+	text-align: center;
+	top: -210px;
+	left: -.5;
+	height: 200px;
+}
+.mainlogo {
+	font-size: 28px;
+}
+a.nava {
+	font-size: 18px;
+	outline: 0;
+	border: 0;
+	float: right;	
+	padding: 25px 35px 32px 35px;
+	text-decoration: none;
+	border-radius: 2em;
+}
+a.nava:hover {
+	box-shadow: inset -.5px -.5px 5.5px #000000;
+	-moz-box-shadow: inset  -.5px -.5px 5.5px #000000;
+	-webkit-box-shadow: inset -.5px -.5px 5.5px #000000;
+}
+.logout {
+	display: none;
+	border-radius: 1.5em;
+	float: left;
+	font-size: 12px;
+	padding: 20px 30px 27px 30px;
+	z-index: 1000;
+	color: black;
+	position: relative;
+	top: 87px;
+	left: 460px;
+}
+/*****************************************************
+*
+*footer.php
+*
+*****************************************************/
+#footer {
+	margin: 0;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px;
+}
+ul.footul {
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+li.footli {
+}
+a.foota {
+	text-decoration: none;
+}
+/************
+* conholder
+**************/
+#conholder {
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+	max-width: 100%;
+	height: auto;
+	padding: 3em 0 2em 0;
+}
+/******************************************************
+*
+*index.php
+*
+******************************************************/
+#conmain {
+	width: 100%;
+	height: 475px;
+	border: 1.5px solid #D8D8D8;
+}
+#mainadtext {
+	width: 40%;
+	float: left;
+	padding: 0 2.5em 1.6em 1.6em;
+}
+h1.adtexth1 {
+	line-height: 30px;
+	padding: 0;
+	font-weight: 400;
+	text-align:  left;
+}
+h4.adtexth4 {
+	font-weight: 400;
+}
+#adblock {
+	width: 44%;
+	padding: 1em;
+	float: left;
+}
+#imgHold {
+	float: left;
+	padding: 3px;
+	position: relative;
+}
+.mainimgads {
+	width: 100px;	
+	height: 100px;
+	border-radius: 5px;
+}
+img.mainimgads:hover {
+        -moz-box-shadow: inset 0 0 10px #000000;
+        -webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow: inset 0 0 10px #000000;
+	opacity: .7;
+	cursor: pointer;
+}
+#photo{
+        padding-top: 50px;
+        position: relative;
+	width:440px;
+	height:340px;
+}
+.caption {
+	padding: 4px;
+	position: absolute;
+	z-index: 1;
+	bottom: -10;
+	left: 2;
+}
+#photo img {
+        width:100%;
+	border: 1.5px solid #D8D8D8;
+	width: 33%;
+	height: 200px;
+	float: left;
+}
+/**************************************************************
+*
+*upload.php
+*
+**************************************************************/
+#loginbox {
+	width: 100%;
+	max-width: 380px;
+	height: 460px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0px 0px 15px rgb(0,0,0);
+	text-align: center;
+}
+h1.texth1 {
+	font-weight: 600;
+	font-size: 36px;
+	padding: 15px;
+	line-height: 30px;
+}
+#front {
+    	top: 0;
+    	z-index: 900;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1.5em 2em;
+}
+form.adform, .passwordForm {
+	text-align: center;
+	margin-top: -25px;
+}
+input.adinput {
+	border-radius: 5px;
+	border: 1px solid #a4a4a4;
+	width: 100%;
+	padding: 1em;
+	font-size: 16px;
+	margin-bottom: 2.5%;
+}
+input.adinput:focus {
+	-moz-box-shadow: inset 0 0 8px #6E6E6E;
+        -webkit-box-shadow: inset 0 0 8px #6E6E6E;
+	box-shadow: inset 0 0 8px #6E6E6E;
+}
+#submitHold {
+	float: right;
+	position: relative;
+	right: 17px;
+	bottom: 200px;
+}
+input.adsubmit {
+	margin-top: 5%;
+	border-radius: 15px;
+	padding: 20px 50px;
+	border: none;
+	box-shadow: 0 0 10px #A4A4A4;
+	font-size: 28px;
+}
+input.adsubmit:hover {
+	cursor: pointer;
+	box-shadow: inset 0 0 15px #A4A4A4;
+	-moz-box-shadow: inset 0 0 15px #A4A4A4;
+	-webkit-box-shadow: inset 0 0 15px #A4A4A4;
+}
+p.loginStatus {
+	height: 25px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top:80px;
+}
+#previewImg {
+	height: 200;
+	padding: 5px;
+}
+/**********************************************
+*
+*choseimg.php
+*
+************************************************/
+#uploadbox {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        border: 2px solid #A4A4A4;
+        box-shadow: 0px 0px 15px rgb(0,0,0);
+        height: 400px;
+}
+#uploadcon {
+        max-width: 580px;
+        width: 75%;
+        padding: 1em 2em;
+        float: right;
+}
+input.imginput {
+        border: none;
+	position: relative;
+	top: -15;
+}
+input.captionInput {
+        border-radius: 5px;
+        border: 1px solid #a4a4a4;
+        width: 335px;
+        padding: 1em;
+        font-size: 16px;
+}
+input.captionInput:focus {
+        -moz-box-shadow: inset 0 0 8px #6E6E6E;
+        -webkit-box-shadow: inset 0 0 8px #6E6E6E;
+        box-shadow: inset 0 0 8px #6E6E6E;
+}
+#status {
+        box-shadow: 0px 0px 15px rgb(0,0,0);
+	text-align: center;
+	color: white;
+	position: fixed;
+	top: 105px;
+	margin-right: 25%;
+	margin-left: 25%;
+	width: 50%;
+	background-color: #01DF74;
+	font-size: 18px;
+	border-radius: 3px;
+}
+/*****************
+*
+*Menu for tabs
+*
+*******************/
+#adminMenu {
+        float: left;
+        height:400px;
+        margin: 0px;
+        text-align: center;
+}
+ul.adminul {
+        list-style-type: none;
+        margin: 0px;
+}
+li.adminli {
+        text-align: center;
+        padding: 50px 1px;
+        border-radius: 10px 0px 0px 10px;
+        border-right: 2px solid #E6E6E6;
+}
+li.adminli:hover {
+        border-right: 2px solid #FE2E2E;
+}
+a.admina {
+        padding: 50px 5px; 
+        text-decoration: none;
+}        
+a.admina:hover, .active {
+        font-weight: 900;
+        color: #D32F2F !important;
+        text-decoration: underline !important;
+}
+#tabDelete, #tabUpload {
+        width: 800px;
+	position: absolute;
+	margin-top: 1.5;
+	margin-left: 183;
+}   
+#deleteImg { 
+        margin: 0;
+	float: left;
+        width: 530px;
+        height: 380px;
+        padding: 10px;
+        overflow-y: scroll;
+	overflow-x: hidden;
+	box-shadow: inset 0 0 10px #A4A4A4;
+	-moz-box-shadow: inset 0 0 10px #A4A4A4;
+	-webkit-box-shadow: inset 0 0 10px #A4A4A4;
+}
